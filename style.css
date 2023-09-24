@@ -1,0 +1,13 @@
+:root{
+    --bg-color : #DE13FF;
+}
+/* header style  */
+header{
+background-color: var(--bg-color);
+padding: 30px 0px;
+}
+.menu a{
+    padding: 10px 15px;
+    font-size: 22px;
+    font-weight: 500;
+ }
