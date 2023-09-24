@@ -11,3 +11,6 @@ padding: 30px 0px;
     font-size: 22px;
     font-weight: 500;
  }
+#hero .grid{
+    grid-template-columns: repeat(2,1fr);
+}

@@ -32,7 +32,10 @@ body{
 .align-center{
     align-items: center;
 }
-/* heading  */
+.grid{
+    display: grid;
+ }
+img{width: 100%;}
 
 h2{
     font-weight:var(--heading-bold) ;
@@ -137,6 +140,9 @@ ul{
 @media (max-width:768px) {
     header > .flex{
         flex-direction: column;
+    }
+    #hero .grid{
+        grid-template-columns: 1fr;
     }
    
 }
