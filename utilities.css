@@ -3,6 +3,8 @@
     --heading-bold:700;
     --heading-semibold:500;
     --link-font:20px;
+    --bg-color : #DE13FF;
+
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
 *{
@@ -55,10 +57,49 @@ a{
 ul{
     list-style-type: none;
 }
-
+.text-center{
+    text-align: center;
+}
+.d-none{
+    display: none;
+}
+.btn{
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.btn-fill{
+    background-color: var(--bg-color);
+    border: 1px solid transparent;
+    transition: background 1s;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -ms-transition: background 1s;
+    -o-transition: background 1s;
+}
+.btn-fill:hover{
+    border: 1px solid var(--bg-color);
+    background-color: transparent;
+}
+.btn-outline{
+    border: 1px solid var(--bg-color);
+    transition:background 1s;
+    -webkit-transition:background 1s;
+    -moz-transition:background 1s;
+    -ms-transition:background 1s;
+    -o-transition:background 1s;
+}
+.btn-outline:hover{
+    color: #fff;
+   
+    background-color: var(--bg-color);
+    
+}
 /* margin  */
 .m-1{
-    margin: 1rem/2;
+    margin: 8px;
 }
 .m-2{
     margin: 1rem;
@@ -68,6 +109,12 @@ ul{
 }
 .m-5{
     margin: 3rem;
+}
+.ms-1{
+    margin-left: 8px;
+}
+.me-1{
+    margin-right: 8px;
 }
 .mx-1{
     margin: 0px 1rem/2;
