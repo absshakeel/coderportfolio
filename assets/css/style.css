@@ -56,3 +56,22 @@ padding: 30px 0px;
 #services .item:hover .second{
     display: block;
 }
+
+/* case study css  */
+#casestudy{
+    background-color: #2D2D2D;
+}
+#casestudy .grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+}
+#casestudy .citem{
+    background-color: #fff;
+    padding: 50px;
+}
+#casestudy .first{
+ 
+    grid-row: 1  / -1;
+    grid-column: 1 / 2;
+}

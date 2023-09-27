@@ -181,15 +181,3 @@ ul{
     padding: 3rem 0px;
 }
 
-
-/* media Query  */
- 
-@media (max-width:768px) {
-    header > .flex{
-        flex-direction: column;
-    }
-    #hero .grid{
-        grid-template-columns: 1fr;
-    }
-   
-}
